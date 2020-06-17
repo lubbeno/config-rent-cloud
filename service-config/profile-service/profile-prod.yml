@@ -11,5 +11,6 @@ spring:
     hibernate:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-      hbm2ddl:
-        auto: update
+        #update ked je na gitu  nefunguje musi to byt lokalne
+     # hbm2ddl:
+     #   auto: update
