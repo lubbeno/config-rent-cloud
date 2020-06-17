@@ -5,6 +5,6 @@ member:
  price:
   discount: 3
 vehicle:
- default: trololol
+ default:
   model: cross over
 duration: all
