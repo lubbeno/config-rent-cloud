@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/spring_test
+    #url: jdbc:postgresql://localhost:5432/spring_test?useSSL=false&amp;serverTimezone=UTC
+    username: hbstudent
+    password: hbstudent
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
